@@ -1,5 +1,5 @@
 from django.http import HttpResponse
 
 def home(request):
-   text = """<h1>our mind blowing home page</h1>"""
+   text = """<h1>This is sample page for AWS Beanstalk in Python</h1>"""
    return HttpResponse(text)
