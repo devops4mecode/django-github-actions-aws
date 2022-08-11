@@ -25,7 +25,6 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
-
   deploy:
     needs: [test]
     runs-on: ubuntu-latest
